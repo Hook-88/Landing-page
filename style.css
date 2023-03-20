@@ -84,3 +84,21 @@ button {
   border-radius: 15px;
   border: 3px solid #3B82F6;
 }
+
+.main-row-two {
+  padding: 0 280px;
+  background-color: #E5E7EB;
+}
+
+.main-row-two p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.main-row-two h6 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+}
