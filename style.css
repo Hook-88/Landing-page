@@ -1,4 +1,62 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #1F2937;
+  padding: 0 150px;
+  color: #F9FAFB;
+}
+
+.header a,
+.header p {
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3B82F6;
+  color: #F9FAFB;
+  border-radius: 8px;
+  padding: 5px 23px;
+  border: 0;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-nav a {
+  text-decoration: none;
+}
+
+.header-content {
+  display: flex;
+  padding: 48px 0;
+}
+
+.header-text {
+  width: 50%;
+}
+
+.header-image {
+  width: 50%;
+  background-color: #6D747D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
