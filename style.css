@@ -9,7 +9,7 @@ body {
 
 .header {
   background-color: #1F2937;
-  padding: 0 150px;
+  padding: 0 10%;
   color: #F9FAFB;
 }
 
@@ -63,13 +63,14 @@ button {
 
 .cards-wrapper {
   display: flex;
+  flex-wrap: wrap;
   gap: 48px;
   text-align: center;
   padding-bottom: 48px;
 }
 
 .main-row-one {
-  padding: 0 250px;
+  padding: 0 15%;
 }
 
 .main-row-one h2 {
@@ -101,4 +102,50 @@ button {
   font-size: 16px;
   font-weight: bold;
   text-align: right;
+}
+
+.main-row-three {
+  padding: 80px 150px;
+  color: #F9FAFB;
+}
+
+.sign-up-info {
+  display: flex;
+  padding: 48px 0;
+  background-color: #3B82F6;
+  border-radius: 15px;
+  padding-left: 48px;
+}
+
+.sign-up-text {
+  width: 75%;
+  padding-left: 18px;
+}
+
+.sign-up-text h5 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.sign-up-text p {
+  margin-top: 1px;
+}
+
+.sign-up-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+button.sign-up-button-button {
+  border: 1px solid #F9FAFB;
+  font-size: 18px;
+}
+
+.footer {
+  padding: 24px;
+  text-align: center;
+  background-color: #1F2937;
+  color: #F9FAFB;
 }
